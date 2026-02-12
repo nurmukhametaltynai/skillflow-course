@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKILLFLOW</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">SKILLFLOW</div>
+
+    <nav class="nav">
+      <a href="#home" data-ru="Главная" data-kz="Басты бет">Главная</a>
+      <a href="#courses" data-ru="Все курсы" data-kz="Барлық курстар">Все курсы</a>
+      <a href="#team" data-ru="Наша команда" data-kz="Біздің команда">Наша команда</a>
+    </nav>
+
+    <button class="lang-btn" id="langBtn">KZ</button>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>SKILLFLOW </h1>
+    <h2 data-ru="- прокачай навыки будущего"
+        data-kz="- болашақ дағдыларын дамыт">
+      - прокачай навыки будущего
+    </h2>
+
+    <p data-ru="Онлайн-курсы по IT, дизайну и цифровым профессиям"
+       data-kz="IT, дизайн және цифрлық мамандықтарға арналған онлайн курстар">
+      Онлайн-курсы по IT, дизайну и цифровым профессиям
+    </p>
+
+    <a href="https://wa.me/77001234567" 
+       target="_blank"
+       class="cta"
+       data-ru="Получить консультацию"
+       data-kz="Кеңес алу"> Получить консультацию</a>
+
+    <button id="scrollTopBtn">
+  ↑
+</button>
+  </section>
+
+<section class="courses" id="courses">
+
+    <h2 data-ru="Наши курсы" data-kz="Біздің курстар">
+        Наши курсы
+    </h2>
+
+    <div class="courses-grid">
+
+        <div class="course-card">
+            <h3>Java Developer</h3>
+
+            <p 
+              data-ru="Курс для обучения студентов без опыта до уровня Junior Java-разработчик"
+              data-kz="Тәжірибесіз студенттерді Junior Java деңгейіне дейін дайындау курсы">
+              Курс для обучения студентов без опыта до уровня Junior Java-разработчик
+            </p>
+
+            <div class="tags">
+                <span>26 недель</span>
+                <span>3 раза в неделю</span>
+                <span>С нуля</span>
+                <span>Гибрид</span>
+            </div>
+
+            <div class="price">690 000 ₸</div>
+        </div>
+
+
+        <div class="course-card">
+            <h3>Advanced Java</h3>
+
+            <p 
+              data-ru="Повышение навыков до Middle уровня"
+              data-kz="Middle деңгейіне дейін дағдыларды арттыру">
+              Повышение навыков до Middle уровня
+            </p>
+
+            <div class="tags">
+                <span>12 недель</span>
+                <span>2 раза в неделю</span>
+                <span>Junior</span>
+                <span>Online</span>
+            </div>
+
+            <div class="price">570 000 ₸</div>
+        </div>
+
+
+        <div class="course-card">
+            <h3>Frontend Developer</h3>
+            <p>HTML, CSS, JS + React</p>
+
+            <div class="tags">
+                <span>20 недель</span>
+                <span>Online</span>
+                <span>Практика</span>
+            </div>
+
+            <div class="price">550 000 ₸</div>
+        </div>
+
+
+        <div class="course-card">
+            <h3>UI/UX Design</h3>
+            <p>Figma + Портфолио</p>
+
+            <div class="tags">
+                <span>16 недель</span>
+                <span>Практика</span>
+                <span>Проекты</span>
+            </div>
+
+            <div class="price">480 000 ₸</div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about-section">
+
+    <h2 
+        data-ru="Кто мы?"
+        data-kz="Біз кімбіз?">
+        Кто мы?
+    </h2>
+
+    <div class="about-wrapper">
+
+        <div class="about-box left-box">
+            <h3 
+                data-ru="SKILLFLOW — IT платформа №1"
+                data-kz="SKILLFLOW — №1 IT платформасы">
+                SKILLFLOW — IT платформа №1
+            </h3>
+
+            <p 
+                data-ru="Мы не просто курсы, а экосистема, где каждый студент получает реальные навыки и поддержку до трудоустройства."
+                data-kz="Біз жай ғана курс емеспіз, біз — әр студентке нақты дағды мен жұмысқа дейінгі қолдау беретін экожүйеміз.">
+                Мы не просто курсы, а экосистема, где каждый студент получает реальные навыки и поддержку до трудоустройства.
+            </p>
+        </div>
+
+        <div class="about-box center-box">
+            <h3 
+                data-ru="Цифры говорят за нас:"
+                data-kz="Біз туралы сандар:">
+                Цифры говорят за нас:
+            </h3>
+
+            <div class="stats">
+
+                <div>
+                    <span class="big-number">10 000+</span>
+                    <p data-ru="выпускников"
+                       data-kz="түлектер">
+                       выпускников
+                    </p>
+                </div>
+
+                <div>
+                    <span class="big-number">92%</span>
+                    <p data-ru="трудоустройство"
+                       data-kz="жұмысқа орналасу">
+                       трудоустройство
+                    </p>
+                </div>
+
+                <div>
+                    <span class="big-number">150+</span>
+                    <p data-ru="менторов"
+                       data-kz="менторлар">
+                       менторов
+                    </p>
+                </div>
+
+                <div>
+                    <span class="big-number">4.9</span>
+                    <p data-ru="средняя оценка"
+                       data-kz="орташа баға">
+                       средняя оценка
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about-box right-box">
+            <h3 
+                data-ru="Наша миссия"
+                data-kz="Біздің миссиямыз">
+                Наша миссия
+            </h3>
+
+            <p 
+                data-ru="Дать студентам современные IT-навыки и вывести их на международный уровень."
+                data-kz="Студенттерге заманауи IT дағдыларын үйретіп, халықаралық деңгейге шығару.">
+                Дать студентам современные IT-навыки и вывести их на международный уровень.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="about-advantages">
+
+    <div class="adv-item">
+        <img src="images/img1.svg" alt="">
+        <h3>Качественная программа</h3>
+        <p>Курсы, тестирование, сертификация и поддержка наставников.</p>
+    </div>
+
+    <div class="adv-item">
+        <img src="images/img2.svg" alt="">
+        <h3>Опытные преподаватели</h3>
+        <p>Практикующие специалисты с реальным опытом.</p>
+    </div>
+
+    <div class="adv-item">
+        <img src="images/img3.svg" alt="">
+        <h3>Помощь с трудоустройством</h3>
+        <p>Сотрудничаем с IT-компаниями и рекомендуем выпускников.</p>
+    </div>
+
+    <div class="adv-item">
+        <img src="images/img4.svg" alt="">
+        <h3>Удобная платформа</h3>
+        <p>Все уроки, лекции и тесты в одном месте.</p>
+    </div>
+
+</div>
+</section>
+
+<section class="teachers-section" id="team">
+    <h2 class="teachers-title" 
+    data-ru="Наша команда"
+    data-kz="Біздің команда" >
+    Наша команда</h2>
+
+    <div class="teachers-slider" id="teachersSlider">
+
+        <div class="teacher-card">
+            <div class="teacher-photo"></div>
+
+            <div class="teacher-info pink">
+                <h3>Имя Фамилия</h3>
+                <p>2 года опыта / 2 жыл тәжірибе</p>
+                <p>IELTS 7.5</p>
+            </div>
+        </div>
+
+        <div class="teacher-card">
+            <div class="teacher-photo"></div>
+
+            <div class="teacher-info blue">
+                <h3>Имя Фамилия</h3>
+                <p>3 года опыта / 3 жыл тәжірибе</p>
+                <p>IELTS 8.0</p>
+            </div>
+        </div>
+
+        <div class="teacher-card">
+            <div class="teacher-photo"></div>
+
+            <div class="teacher-info purple">
+                <h3>Имя Фамилия</h3>
+                <p>4 года опыта / 4 жыл тәжірибе</p>
+                <p>IELTS 7.0</p>
+            </div>
+        </div>
+
+        <div class="teacher-card">
+            <div class="teacher-photo"></div>
+
+            <div class="teacher-info pink">
+                <h3>Имя Фамилия</h3>
+                <p>2 года опыта / 2 жыл тәжірибе</p>
+                <p>IELTS 7.5</p>
+            </div>
+        </div>
+
+        <div class="teacher-card">
+            <div class="teacher-photo"></div>
+
+            <div class="teacher-info blue">
+                <h3>Имя Фамилия</h3>
+                <p>2 года опыта / 2 жыл тәжірибе</p>
+                <p>IELTS 7.5</p>
+            </div>
+        </div>
+
+        <div class="teacher-card">
+            <div class="teacher-photo"></div>
+
+            <div class="teacher-info purple">
+                <h3>Имя Фамилия</h3>
+                <p>2 года опыта / 2 жыл тәжірибе</p>
+                <p>IELTS 7.5</p>
+            </div>
+        </div>
+
+        <div class="teacher-card">
+            <div class="teacher-photo"></div>
+
+            <div class="teacher-info pink">
+                <h3>Имя Фамилия</h3>
+                <p>2 года опыта / 2 жыл тәжірибе</p>
+                <p>IELTS 7.5</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="faq-section">
+
+    <h2 class="faq-title"
+        data-ru="Часто задаваемые вопросы"
+        data-kz="Жиі қойылатын сұрақтар">
+        Часто задаваемые вопросы
+    </h2>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <span 
+              data-ru="Сколько часов в неделю нужно уделять курсу?"
+              data-kz="Аптасына курсқа қанша сағат бөлу керек?">
+              Сколько часов в неделю нужно уделять курсу?
+            </span>
+            <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer"
+             data-ru="В среднем достаточно 8–12 часов в неделю. Занятия можно проходить в удобное время, 
+             поэтому вы легко сможете совмещать обучение с работой или учебой."
+             data-kz="Орта есеппен аптасына 8–12 сағат жеткілікті. Сабақтарды өзіңізге ыңғайлы уақытта оқи аласыз,
+              сондықтан жұмыспен немесе оқумен қатар алып жүруге болады.">
+             В среднем достаточно 8–12 часов в неделю. Занятия можно проходить в удобное время, 
+             поэтому вы легко сможете совмещать обучение с работой или учебой.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <span 
+              data-ru="Как быстро я смогу трудоустроиться?"
+              data-kz="Қанша уақытта жұмысқа орналаса аламын?">
+              Как быстро я смогу трудоустроиться?
+            </span>
+            <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer"
+             data-ru="Большинство студентов находят работу в течение 2–4 месяцев после окончания курса. 
+             Мы помогаем с составлением резюме, портфолио и подготовкой к собеседованиям."
+             data-kz="Студенттердің басым бөлігі курс аяқталғаннан кейін 2–4 ай ішінде жұмысқа орналасады. 
+             Біз түйіндеме жасауға, портфолио жинауға және сұхбатқа дайындалуға көмектесеміз.">
+             Большинство студентов находят работу в течение 2–4 месяцев после окончания курса. 
+             Мы помогаем с составлением резюме, портфолио и подготовкой к собеседованиям.
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">
+            <span 
+              data-ru="В каком формате проходит обучение?"
+              data-kz="Оқу қандай форматта өтеді?">
+              В каком формате проходит обучение?
+            </span>
+            <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer"
+             data-ru="Обучение проходит в онлайн формате на современной платформе. Доступ к урокам сохраняется, 
+             а также предусмотрена поддержка менторов и проверка домашних заданий."
+             data-kz="Оқу заманауи платформада онлайн форматта өтеді. Сабақтарға тұрақты қолжетімділік беріледі, 
+             менторлық қолдау және үй тапсырмаларын тексеру қарастырылған.">
+             Обучение проходит в онлайн формате на современной платформе. Доступ к урокам сохраняется, 
+             а также предусмотрена поддержка менторов и проверка домашних заданий.
+        </div>
+    </div>
+
+    <div class="faq-consult-box">
+
+    <h3 
+        data-ru="Получите бесплатную консультацию"
+        data-kz="Тегін кеңес алыңыз">
+        
+        Получите бесплатную консультацию
+    </h3>
+
+    <p 
+        data-ru="Поможем выбрать курс и ответим на все ваши вопросы"
+        data-kz="Курс таңдауға көмектесеміз және барлық сұрақтарыңызға жауап береміз">
+        Поможем выбрать курс и ответим на все ваши вопросы
+    </p>
+
+    <form class="faq-consult-form">
+        <input type="text"
+            data-ru-placeholder="Ваше имя"
+            data-kz-placeholder="Атыңыз"
+            placeholder="Ваше имя">
+
+        <input type="tel"
+            placeholder="+7 (___) ___ ____">
+
+        <button type="submit"
+            data-ru="Оставить заявку"
+            data-kz="Өтінім қалдыру">
+            Оставить заявку
+        </button>
+    </form>
+
+</div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h2 class="logo">SKILLFLOW</h2>
+            <p>Алматы, Аль-Фараби 126, 2 этаж</p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Курсы</h4>
+            <ul>
+                <li>Java Developer</li>
+                <li>Advenced Java</li>
+                <li>Frontend Developer</li>
+                <li>UX/UI Design</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Вход</h4>
+            <p>
+                Если у вас остались вопросы, напишите нам
+            </p>
+            <button class="footer-btn">
+                Написать в WhatsApp
+            </button>
+        </div>
+
+        <div class="footer-col">
+            <h4>Контакты</h4>
+            <p>+7 707 777 16 16</p>
+            <p>+7 707 777 77 77</p>
+            <p>skillflow@gmail.com</p>
+            <div class="social-links">
+
+    <a href="https://wa.me/77777777" target="_blank">
+        <img src="images/whatsapp.png" alt="WhatsApp">
+    </a>
+
+    <a href="https://instagram.com/yourusername" target="_blank">
+        <img src="images/instagram.png" alt="Instagram">
+    </a>
+
+    <a href="https://t.me/yourusername" target="_blank">
+        <img src="images/telegram.png" alt="Telegram">
+    </a>
+
+    <a href="https://facebook.com/yourpage" target="_blank">
+        <img src="images/facebook.png" alt="Facebook">
+    </a>
+
+</div>
+        </div>
+
+    </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
